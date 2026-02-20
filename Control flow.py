@@ -4,26 +4,28 @@ age = 18
 
 if age >= 18:
     print("you are an adult")
-
 else:
     print("you are a minor")
 
-    # elif
+# elif
 
-    score = 85
+score = 85
 
-    if score >= 80:
-        print("Grade: A")
+if score >= 80:
+    print("Grade: A")
+elif score >= 70:
+    print("Grade: B")
+else:
+    print("Grade: C")
 
-    elif score >= 70:
-        print("Grade: B")
+# FOR LOOPS
 
-    else:
-        print("Grade: C")
+for i in range(5):
+    print(i)
 
-        # FOR LOOPS
+# WHILE LOOPS
 
-        for i in range(5):
-            print(i)
-
-            
+count = 0
+while count < 5:
+    print(count)
+    count += 1
