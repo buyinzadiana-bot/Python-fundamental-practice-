@@ -34,3 +34,9 @@ while count < 5:
 
     name = input("What is your name? ")
     print("Hello, " + name + "!")
+
+    # F STRINGS
+
+    name = "Diana"
+    age = 35
+    print(f"My name is {name} and I am {age} years old.")
