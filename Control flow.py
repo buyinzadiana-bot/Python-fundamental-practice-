@@ -20,3 +20,10 @@ else:
 
     else:
         print("Grade: C")
+
+        # FOR LOOPS
+
+        for i in range(5):
+            print(i)
+
+            
